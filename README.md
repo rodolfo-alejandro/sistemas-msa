@@ -28,11 +28,15 @@ Nginx del host apunta `sistemas-msa.com` / `www` a `127.0.0.1:8093`. Los subdomi
 
 ## Proyectos listados
 
-| Producto        | URL                                   |
-|-----------------|---------------------------------------|
-| MSA Bikers      | https://bikers.sistemas-msa.com       |
-| MSA Gym         | https://gym.sistemas-msa.com          |
-| MSA Empleos     | https://empleos.sistemas-msa.com      |
-| Reportar Salta  | https://reportasalta.com              |
-| SIOC            | https://sioc.sistemas-msa.com         |
-| Tienda / Kiosco | https://tienda.sistemas-msa.com       |
+| Producto       | URL                             |
+|----------------|---------------------------------|
+| MSA Bikers     | https://bikers.sistemas-msa.com |
+| MSA Gym        | https://gym.sistemas-msa.com    |
+| MSA Empleos    | https://empleos.sistemas-msa.com|
+| Reportar Salta | https://reportasalta.com        |
+
+## Contacto
+
+- Rodolfo Alejandro Aguirre
+- Email: sistemas.msa95@gmail.com
+- Tel / WhatsApp: 387 410-8192
