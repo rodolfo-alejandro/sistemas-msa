@@ -1,8 +1,4 @@
 # Assets de marca
 
-Acá van el logo y la portada cuando los pases:
-
-- `logo.png` (o `.svg`) — header / favicon
-- `cover.jpg` (o `.webp`) — hero / portada
-
-Formatos ideales: PNG/SVG para logo, JPG/WebP para portada (ancho ~1600px+).
+- `logo.png` — logo circular MSA Sistemas (header / favicon / sobre mí)
+- `cover.png` — portada / banner hero a pantalla completa
