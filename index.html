@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sistemas MSA — Software a medida</title>
+  <meta name="description" content="Portfolio de Sistemas MSA: desarrollo de sistemas web para gestión deportiva, gimnasios, empleo y más.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top">Sistemas MSA</a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a class="nav-cta" href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="brand-mark" data-reveal>Sistemas MSA</p>
+      <h1 data-reveal data-delay="1">Sistemas web que ordenan el día a día de tu negocio.</h1>
+      <p class="lede" data-reveal data-delay="2">Diseño y desarrollo soluciones a medida: inscripción, cobros, operación y reportes — en producción, no en slides.</p>
+      <div class="hero-actions" data-reveal data-delay="3">
+        <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+        <a class="btn btn-ghost" href="#contacto">Hablar</a>
+      </div>
+    </section>
+
+    <section class="about" id="sobre-mi">
+      <div class="section-head" data-reveal>
+        <h2>Sobre mí</h2>
+        <p>Soy Rodolfo Alejandro. Construyo y mantengo productos digitales bajo la marca Sistemas MSA, con foco en operación real: eventos, gimnasios, empleo y herramientas de gestión.</p>
+      </div>
+      <ul class="about-points" data-reveal>
+        <li>
+          <strong>Producto + infraestructura</strong>
+          <span>Flask/Django, Docker, nginx y PostgreSQL en un mismo servidor productivo.</span>
+        </li>
+        <li>
+          <strong>Dominio propio</strong>
+          <span>Cada producto vive en su subdominio; este sitio es la puerta de entrada.</span>
+        </li>
+        <li>
+          <strong>Iteración continua</strong>
+          <span>Los sistemas ya están en uso: se despliegan, se miden y se mejoran.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="projects" id="proyectos">
+      <div class="section-head" data-reveal>
+        <h2>Proyectos</h2>
+        <p>Productos en vivo. Entrá a cada uno desde su enlace.</p>
+      </div>
+
+      <div class="project-grid">
+        <a class="project-card" href="https://bikers.sistemas-msa.com" target="_blank" rel="noopener noreferrer" data-reveal>
+          <span class="project-tag">Deportes</span>
+          <h3>MSA Bikers</h3>
+          <p>Gestión de eventos e inscripción para ciclismo y deportes.</p>
+          <span class="project-url">bikers.sistemas-msa.com</span>
+        </a>
+
+        <a class="project-card" href="https://gym.sistemas-msa.com" target="_blank" rel="noopener noreferrer" data-reveal data-delay="1">
+          <span class="project-tag">Fitness</span>
+          <h3>MSA Gym</h3>
+          <p>Administración de gimnasios: socios, planes y operación diaria.</p>
+          <span class="project-url">gym.sistemas-msa.com</span>
+        </a>
+
+        <a class="project-card" href="https://empleos.sistemas-msa.com" target="_blank" rel="noopener noreferrer" data-reveal data-delay="2">
+          <span class="project-tag">RR.HH.</span>
+          <h3>MSA Empleos</h3>
+          <p>Portal de ofertas laborales y gestión de postulaciones.</p>
+          <span class="project-url">empleos.sistemas-msa.com</span>
+        </a>
+
+        <a class="project-card" href="https://reportasalta.com" target="_blank" rel="noopener noreferrer" data-reveal data-delay="3">
+          <span class="project-tag">Ciudadanía</span>
+          <h3>Reportar Salta</h3>
+          <p>Plataforma para reportar incidencias urbanas en Salta.</p>
+          <span class="project-url">reportasalta.com</span>
+        </a>
+
+        <a class="project-card" href="https://sioc.sistemas-msa.com" target="_blank" rel="noopener noreferrer" data-reveal>
+          <span class="project-tag">Operaciones</span>
+          <h3>SIOC</h3>
+          <p>Sistema operativo interno para flujo y control de información.</p>
+          <span class="project-url">sioc.sistemas-msa.com</span>
+        </a>
+
+        <a class="project-card" href="https://tienda.sistemas-msa.com" target="_blank" rel="noopener noreferrer" data-reveal data-delay="1">
+          <span class="project-tag">Comercio</span>
+          <h3>Tienda / Kiosco</h3>
+          <p>Punto de venta y catálogo para operación de mostrador.</p>
+          <span class="project-url">tienda.sistemas-msa.com</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="contact-panel" data-reveal>
+        <h2>¿Tenés un sistema en mente?</h2>
+        <p>Escribime y vemos alcance, tiempos y cómo llevarlo a producción.</p>
+        <a class="btn btn-primary" href="mailto:contacto@sistemas-msa.com">contacto@sistemas-msa.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Sistemas MSA</p>
+    <p class="footer-note">sistemas-msa.com</p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
